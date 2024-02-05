@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  width:100%;
+  height:80px;
+  background: linear-gradient(to right,pink, lightblue);
+  position: fixed;
+  top:0%;
+  left:0%;
+  right:0%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a{
+    margin-right:6%;
+    margin-top: 2%;
+    text-decoration: none;
+    font: 1.1em sans-serif;
+    font-weight: 800;
+}
+nav a:hover{
+  transition:.5s;
+  color:rgb(219, 12, 81);
+}
+nav img:hover{
+  transform: scale(2,2);
+}
+#Home{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+h1{
+  text-align: center;
+  padding-top: 10%;
+  font:5rem;
+  font-weight: 800;
+}
+h1:hover{
+  color:rgb(236, 10, 142);
+}
+h1 span{
+  color:rgb(214, 74, 9);
+}
+.select{
+  margin-left: 30%;
+ width:600px;
+ height:60px;
+ border-radius:20px;
+ border:none;
+ text-align: center;
+ margin-top: 3%;
+ font-size: 16px;
+}
+.sample{
+  width:100%;
+  height:70px;
+  padding-top: 2%;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+#content{
+  width:100%;
+  height:60vh;
+  background-color: rgb(215, 222, 230);
+  text-align: center;
+  padding-top: 5%;
+}
+.imgcontainer{
+  display: flex;
+  padding-top: 4%;
+  justify-content: space-between;
+}
+.imgcontainer img{
+  width:100px;
+  height:90px;
+
+}
+.logincontainer{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(to right,lightblue,rgb(182, 95, 143));
+}
+.login{
+  width:400px;
+  height:500px;
+  border-radius: 7%;
+  border: none;
+  background-color:lightsteelblue;
+  text-align: center;
+}
+ .login input{
+  width:250px;
+  height:40px;
+  border-radius: 10px;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
+ .login button{
+  margin-top: 4%;
+  width:100px;
+  height:40px;
+  background-color: rgb(10, 236, 10);
+  border-radius: 10px;
+  border: none;
+}
+h5{
+  padding-top: 4%;
+}
+#card-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap:10px;
+  margin-top: 5%;
+}
+.card{
+  height:350px;
+  width:300px;
+  border: 1px solid;
+  text-align: center;
+}
+.card button{
+  background-color: rgb(93, 93, 221);
+}
+#reservation{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  text-align: center;
+  width:100%;
+  height:90vh;
+  background:linear-gradient(to left,pink,palegreen );
+}
+.demo{
+  width:100%;
+  height:40px;
+  text-align: left;
+}
+.images{
+  display: flex;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+}
+@media (min-width:480px){
+  body{
+    display: block;
+  }
+}
